@@ -10,15 +10,15 @@ li {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    /* background:red; */
   }
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #fb8500;
-    color: white;
-    padding: 10px;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
   }
  
 nav{
@@ -59,11 +59,12 @@ nav{
     padding: 10px;
     button{
         background-color: #fb8500;
-        color: white;
+        color: black;
         padding: 10px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
+        font-weight: bold;
     }
     button:hover{
         background-color: #ffb703;
@@ -75,13 +76,13 @@ nav{
     align-items: center;    
     color: white;
     padding: 10px;
+    font-weight: bold;
     background-color: #fb8500;
  }
  #diet{
     display: flex;
     justify-content: space-around;
-    align-items: center;    
-    
+    align-items: center; 
     padding: 10px;
     color: black;
     h2{
@@ -92,8 +93,7 @@ nav{
  #exercices{
     display: flex;
     justify-content: space-around;
-    align-items: center;    
-    
+    align-items: center;   
     padding: 10px;
     color: black;
     h2{
@@ -105,7 +105,7 @@ nav{
     width: auto;
     display: flex;
     justify-content: space-around;
-    align-items: center;    
+    align-items: center;
     color: white;
     padding: 10px;
     color: black;
@@ -150,6 +150,7 @@ nav{
         border: none;
         border-radius: 5px;
         cursor: pointer;
+        font-weight: bold;
     }
     button:hover{
         background-color: #ffb703;
