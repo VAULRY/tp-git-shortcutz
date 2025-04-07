@@ -164,3 +164,38 @@ nav{
     padding: 10px;
     background-color: #fb8500;
  }
+ @media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+        gap: 20px;
+    }
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #shortcutz {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #diet {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #exercices {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #contact {
+        flex-direction: column;
+        gap: 10px;
+    }
+   
+ }
