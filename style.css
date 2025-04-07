@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* background:red; */
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fb8500;
+    color: white;
+    padding: 10px;
+  }
+ 
+nav{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    color: white;
+    padding: 10px;
+    ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        padding: 0;
+    }
+    li{
+        margin: 0 10px;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+ #shortcutz{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    color: white;
+    padding: 10px;
+ }
+ .text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+   color: black;
+    padding: 10px;
+ }
+ #navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    color: white;
+    padding: 10px;
+    background-color: #fb8500;
+ }
+ #diet{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    color: white;
+    padding: 10px;
+    color: black;
+    
+ }
+ #exercices{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    color: white;
+    padding: 10px;
+    color: black;
+    
+ }
+ #contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    color: white;
+    padding: 10px;
+    color: black;
+    
+ }
+ footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    color: white;
+    padding: 10px;
+    background-color: #fb8500;
+ }
